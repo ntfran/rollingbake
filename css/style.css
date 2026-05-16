@@ -94,10 +94,12 @@ main {
   }
   .overlayHero {
     position: absolute;
-    inset: 0; /* Es como poner bottom top left y right 0 */
+    inset: 0; /* Es como poner bottom top left y right 0 para tapar todo el video con "sombra"*/
     background: rgba(78, 59, 49, 0.5);
     z-index: 2;
-
+    p {
+      font-family: var(--fuenteCuerpo);
+    }
     .shadowLetras {
       text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
     }
