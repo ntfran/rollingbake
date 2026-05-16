@@ -23,16 +23,31 @@ h5,
 h6 {
   font-family: var(--fuenteTitulos);
 }
-
+/* Estilos del navbar */
 .navPrincipal {
   background-color: var(--crema);
 
   .navLinkPersonalizado {
     color: var(--marronOscuro);
-    transition: color 0.3s ease;
+    transition: 300ms;
 
     &:hover {
+      color: var(--marronClaro);
+    }
+    &.active {
       color: var(--dorado);
+      font-weight: 700;
+      &:hover {
+        color: var(--marronClaro);
+      }
+    }
+
+    /*deshabilitado */
+    &.disabled {
+      color: var(--marronClaro);
+      opacity: 0.6;
+      pointer-events: none; /* Evita que sea clickeable */
+      cursor: default;
     }
   }
 }
@@ -49,5 +64,3 @@ h6 {
 .icono-logo {
   font-size: 1.3rem;
 }
-
-
