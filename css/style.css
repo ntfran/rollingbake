@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
-  --marron-oscuro: #4e3b31;
+  --marronOscuro: #4e3b31;
   --dorado: #d29f6d;
   --crema: #fff5e1;
-  --marron-claro: #9c7b66;
+  --marronClaro: #9c7b66;
   --fuenteTitulos: "Playfair Display", serif;
   --fuenteCuerpo: "Lato", sans-serif;
 }
@@ -24,19 +24,30 @@ h6 {
   font-family: var(--fuenteTitulos);
 }
 
+.navPrincipal {
+  background-color: var(--crema);
+
+  .navLinkPersonalizado {
+    color: var(--marronOscuro);
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--dorado);
+    }
+  }
+}
+
+.bordeDorado {
+  border-bottom: 2px solid var(--dorado);
+}
+
 .tituloPasteleria {
   font-family: var(--fuenteTitulos);
   color: var(--marronOscuro);
 }
 
-.botonDorado {
-  background-color: var(--dorado);
-  color: white;
-  border: none;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background-color: var(--marronClaro);
-    transform: translateY(-2px);
-  }
+.icono-logo {
+  font-size: 1.3rem;
 }
+
+
