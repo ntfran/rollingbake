@@ -80,7 +80,7 @@ main{
 .footer {
   background-color: var(--marronOscuro);
   color: white;
-
+  border-top: 2px solid var(--dorado);
   h5 {
     font-size: 1rem;
   }
