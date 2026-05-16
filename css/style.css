@@ -134,6 +134,18 @@ main {
   }
 }
 
+/* Estilos del banner */
+
+.banner {
+  background-color: var(--marronOscuro);
+  
+  h3 {
+    letter-spacing: 1px;
+    line-height: 2em;
+    font-style: italic;
+  }
+}
+
 /* Estilos del footer */
 .footer {
   background-color: var(--marronOscuro);
