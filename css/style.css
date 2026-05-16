@@ -31,8 +31,8 @@ body {
   min-height: 100vh;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 /* Estilos del navbar */
 .navPrincipal {
@@ -78,8 +78,28 @@ main{
 
 /* Estilos del Hero */
 
+.heroContainer {
+  height: 40vh; 
+  width: 100%;
+  position: relative;
+  .videoFondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .overlayHero {
+    position: absolute;
+    inset: 0;
+    background: rgba(78, 59, 49, 0.5);
+    z-index: 2;
 
-
+    .shadowLetras {
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+  }
+}
 /* Estilos del footer */
 .footer {
   background-color: var(--marronOscuro);
