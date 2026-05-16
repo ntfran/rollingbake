@@ -151,6 +151,8 @@ main {
   overflow: hidden;
   background-color: var(--marronOscuro);
   border-radius: 5px;
+ /*  border: 2px solid var(--marronClaro); */
+  box-shadow: 2px 2px 3px var(--marronOscuro);
   img {
     width: 100%;
     height: 100%;
