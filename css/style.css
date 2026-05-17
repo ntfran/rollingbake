@@ -151,7 +151,7 @@ main {
   overflow: hidden;
   background-color: var(--marronOscuro);
   border-radius: 5px;
- /*  border: 2px solid var(--marronClaro); */
+  /*  border: 2px solid var(--marronClaro); */
   box-shadow: 2px 2px 3px var(--marronOscuro);
   img {
     width: 100%;
@@ -167,7 +167,14 @@ main {
     opacity: 1;
   }
 }
+/* Estilos de detalles */
 
+.card {
+  background: var(--crema);
+  .linkDetalle {
+    color: var(--marronClaro);
+  }
+}
 /* Estilos del footer */
 .footer {
   background-color: var(--marronOscuro);
