@@ -171,15 +171,16 @@ main {
 
 .card {
   background: var(--crema);
+  border-bottom: solid 1px var(--dorado);
   .linkDetalle {
     color: var(--marronClaro);
   }
 }
 
 .recetaCard {
-  transition: transform 0.3s ease;
+  aspect-ratio: 2 / 3; /* Con esto establezco la forma de la card para que todas las imagenes se vean iguales */
+  transition: transform 0.3s;
   overflow: hidden;
-
   .contenedorImagenReceta {
     overflow: hidden;
     img {
@@ -192,7 +193,6 @@ main {
 
   &:hover {
     transform: translateY(-5px);
-    
     img {
       transform: scale(1.05);
     }
