@@ -178,10 +178,10 @@ main {
 }
 
 .recetaCard {
-  aspect-ratio: 2 / 3; /* Con esto establezco la forma de la card para que todas las imagenes se vean iguales */
   transition: transform 0.3s;
   overflow: hidden;
   .contenedorImagenReceta {
+    aspect-ratio: 2 / 3; /* Con esto establezco la forma de la card para que todas las imagenes se vean iguales */
     overflow: hidden;
     img {
       width: 100%;
