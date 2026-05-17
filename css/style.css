@@ -175,6 +175,29 @@ main {
     color: var(--marronClaro);
   }
 }
+
+.recetaCard {
+  transition: transform 0.3s ease;
+  overflow: hidden;
+
+  .contenedorImagenReceta {
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    
+    img {
+      transform: scale(1.05);
+    }
+  }
+}
 /* Estilos del footer */
 .footer {
   background-color: var(--marronOscuro);
