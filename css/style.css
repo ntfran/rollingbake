@@ -240,7 +240,20 @@ main {
 
 /* Estilos de la pagina Detalles */
 
+.ingredientes{
+  background-color: var(--marronClaro);
+  padding: 2em;
+  border-radius: 10px;
+  color: var(--crema);
+  border:1px solid var(--marronOscuro);
+}
 
+.recomendaciones{
+    background-color: var(--marronClaro);
+  border-radius: 10px;
+  color: var(--crema);
+  border:1px solid var(--marronOscuro);
+}
 
 /* Estilos del footer */
 .footer {
