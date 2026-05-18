@@ -248,6 +248,16 @@ main {
   border:1px solid var(--marronOscuro);
 }
 
+.contenedorImagenDetalle {
+  aspect-ratio: 4 / 5;
+  
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 .recomendaciones{
     background-color: var(--marronClaro);
   border-radius: 10px;
