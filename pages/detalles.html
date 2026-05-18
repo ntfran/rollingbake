@@ -80,6 +80,7 @@
           </ol>
         </nav>
       </div>
+
       <div class="container">
         <div class="row g-4">
           <article class="col-12 col-md-6">
@@ -108,43 +109,19 @@
               </ul>
               <button
                 type="button"
-                class="btn mt-2 shadow-sm"
+                class="btn mt-3 shadow-sm"
                 data-bs-toggle="modal"
                 data-bs-target="#consejoModal"
               >
-                <strong>💡 Un ultimo consejo...</strong>
+                <strong>💡 Un último consejo...</strong>
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="consejoModal"
-                tabindex="-1"
-                aria-labelledby="consejoModalLabel"
-                aria-hidden="true"
+              <button
+                type="button"
+                class="btn mt-3 ms-2 shadow-sm"
+                onclick="window.print()"
               >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="consejoModalLabel">
-                        <strong>Un tip más...</strong>
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      Para un sabor más intenso, tostá las nueces apenas unos
-                      minutos en el horno antes de procesarlas. Esto libera sus
-                      aceites naturales y hace que el alfajor sea de otro nivel.
-                    </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <i class="bi bi-printer me-2 text-center"></i>
+              </button>
             </div>
           </article>
           <article class="col-12">
@@ -202,6 +179,7 @@
               </div>
             </div>
           </article>
+
           <article class="col-12 col-md-4 col-lg-3" id="itemReceta3">
             <div class="card recetaCard h-100 shadow-sm">
               <div class="contenedorImagenReceta">
@@ -221,6 +199,7 @@
               </div>
             </div>
           </article>
+
           <article class="col-12 col-md-4 col-lg-3" id="itemReceta4">
             <div class="card recetaCard h-100 shadow-sm">
               <div class="contenedorImagenReceta">
@@ -242,6 +221,34 @@
           </article>
         </div>
       </section>
+      <div
+        class="modal fade"
+        id="consejoModal"
+        tabindex="-1"
+        aria-labelledby="consejoModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content text-dark">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="consejoModalLabel">
+                <strong>Un tip más...</strong>
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body fst-normal">
+              Para un sabor más intenso, tostá las nueces apenas unos minutos en
+              el horno antes de procesarlas. Esto libera sus aceites naturales y
+              hace que el alfajor sea de otro nivel.
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer py-3">
       <div class="container text-center">
