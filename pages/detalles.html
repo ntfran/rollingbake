@@ -80,7 +80,6 @@
           </ol>
         </nav>
       </div>
-
       <div class="container">
         <div class="row g-4">
           <article class="col-12 col-md-6">
@@ -94,7 +93,6 @@
               />
             </div>
           </article>
-
           <article class="col-12 col-md-6">
             <h2 class="fw-light border-bottom text-uppercase">Ingredientes</h2>
             <div class="ingredientes">
@@ -108,9 +106,47 @@
                 <li class="mb-1">Dulce de leche repostero c/n</li>
                 <li class="mb-1">Nueces picadas para decorar</li>
               </ul>
+              <button
+                type="button"
+                class="btn mt-2 shadow-sm"
+                data-bs-toggle="modal"
+                data-bs-target="#consejoModal"
+              >
+                Un ultimo consejo...
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="consejoModal"
+                tabindex="-1"
+                aria-labelledby="consejoModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="consejoModalLabel">
+                        Un tip más...
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Para un sabor más intenso, tostá las nueces apenas unos
+                      minutos en el horno antes de procesarlas. Esto libera sus
+                      aceites naturales y hace que el alfajor sea de otro nivel.
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </article>
-
           <article class="col-12">
             <h2 class="fw-light mb-4 border-bottom pb-2 text-uppercase mt-4">
               Preparación
@@ -166,7 +202,6 @@
               </div>
             </div>
           </article>
-
           <article class="col-12 col-md-4 col-lg-3" id="itemReceta3">
             <div class="card recetaCard h-100 shadow-sm">
               <div class="contenedorImagenReceta">
@@ -186,7 +221,6 @@
               </div>
             </div>
           </article>
-
           <article class="col-12 col-md-4 col-lg-3" id="itemReceta4">
             <div class="card recetaCard h-100 shadow-sm">
               <div class="contenedorImagenReceta">

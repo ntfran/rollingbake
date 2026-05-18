@@ -168,7 +168,7 @@ main {
     opacity: 1;
   }
 }
-/* Estilos de detalles */
+/* Estilos de recetas */
 
 .card {
   background: var(--crema);
@@ -199,6 +199,8 @@ main {
     }
   }
 }
+
+
 
 /* Estilos 404 */
 
@@ -270,6 +272,15 @@ main {
   border-radius: 10px;
   color: var(--crema);
   border:1px solid var(--marronOscuro);
+}
+
+.btn{
+  background: var(--dorado);
+  color: var(--marronOscuro);
+  &:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
 }
 
 /* Estilos del footer */
