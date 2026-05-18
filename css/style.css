@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--crema);
+  font-family: var(--fuenteCuerpo);
 }
 
 main {
@@ -239,6 +240,12 @@ main {
 }
 
 /* Estilos de la pagina Detalles */
+
+.breadcrumb{
+  a{
+  color: #4e3b31;
+  }
+}
 
 .ingredientes{
   background-color: var(--marronClaro);
