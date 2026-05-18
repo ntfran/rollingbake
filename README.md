@@ -1,41 +1,74 @@
-# RollingBake 🥐 | Pastelería Artesanal
+# 🍰 Rolling Sugar - Pastelería Artesanal
 
-Proyecto desarrollado para el bootcamp de Rolling Code. Se trata de una landing page interactiva para una pastelería.
+Sitio web de recetas de pastelería desarrollado con HTML5, CSS3 y Bootstrap 5.
 
-## 🎯 Objetivo del Proyecto
-Construir una interfaz de usuario (UI) responsiva utilizando **Bootstrap 5** y técnicas de **CSS Nesting**, garantizando una experiencia fluida tanto en dispositivos móviles como en desktop.
-
-## 🛠️ Stack Tecnológico
-* **Frontend:** HTML5, CSS3 (Nesting activo).
-* **Framework UI:** Bootstrap 5.
-* **Media:** Video Background optimizado y filtros dinámicos.
-* **Control de Versiones:** Git & GitHub (Flujo de trabajo: `dev` -> `main`).
-
-## 🚀 Implementaciones Destacadas
-
-### 1. Sistema de Grillas Responsivo
-Implementación de un layout dinámico que se adapta automáticamente:
-* **Desktop:** 4 columnas por fila (`col-lg-3`).
-* **Tablet:** 2 columnas por fila (`col-md-6` / `col-md-4`).
-* **Mobile:** 1 columna (`col-12`).
-
-### 2. Estilos y Efectos (UI/UX)
-* **Círculos de Categoría:** Uso de `aspect-ratio: 1/1` y `object-fit: cover` para asegurar la simetría de las imágenes independientemente de su fuente original.
-* **Interacciones:** Hover effects basados en filtros de `brightness` y `contrast` para feedback visual inmediato.
-* **Video:** Hero section con video loop y control de contraste para mejorar la legibilidad del texto superior.
-**Sección Comunidad:** Implementación de zoom escalable (`scale`) y control de opacidad en grilla de fotos.
-
-## 📂 Estructura del Repositorio
-* `index.html` - Página principal (Home).
-* `css/style.css` - Hoja de estilos con variables y nesting.
-* `pages/` - Secciones adicionales del sitio:
-  * `recetas.html` - Listado de recetas.
-  * `detalles.html` - Vista detallada de recetas.
-  * `404.html` - Página de error personalizada.
-* `README.md` - Documentación técnica del proyecto.
-
-## ✒️ Autor
-* **Francisco Sandoval** - [ntfran](https://github.com/ntfran)
+[Ver demo](https://rollingbake.netlify.app/)
 
 ---
-*Este proyecto es parte de mi formación como Full Stack Developer.*
+
+## 📋 Descripción
+
+Rolling Sugar es una plataforma web dedicada a compartir recetas de pastelería artesanal. El proyecto presenta un diseño moderno y responsive, optimizado para dispositivos móviles y desktop.
+
+---
+
+## ✨ Características
+
+- 🎨 Diseño responsive (mobile-first)
+- 📱 Navegación intuitiva
+- 🌐 Deploy automático con Netlify
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Bootstrap 5.3
+- Google Fonts
+- Pexel (imágenes y video)
+
+---
+
+## 🎨 Paleta de colores
+
+```css
+--marron-oscuro: #4E3B31
+--dorado: #D29F6D
+--crema: #FFF5E1
+--marron-claro: #9C7B66
+```
+
+---
+
+## 📁 Estructura del proyecto
+
+rollingbake/
+├── index.html          # Página principal
+├── recetas.html        # Listado de recetas
+├── detalle-receta.html # Detalle de receta individual
+├── css/
+│   └── estilos.css     # Estilos personalizados
+└── README.md
+
+---
+
+## 🚀 Cómo clonar
+
+2. Clonar el repositorio:
+```bash
+git clone https://github.com/ntfran/rollingbake.git
+```
+
+## 👨‍💻 Autor
+
+**Sandoval Francisco Tomás**
+- GitHub: [@ntfran](https://github.com/ntfran)
+
+---
+
+## 📝 Licencia
+
+Este proyecto fue creado con fines educativos.
+
+---
