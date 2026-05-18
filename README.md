@@ -1,4 +1,4 @@
-# 🍰 Rolling Sugar - Pastelería Artesanal
+# 🍰 RollingBake - Pastelería Artesanal
 
 Sitio web de recetas de pastelería desarrollado con HTML5, CSS3 y Bootstrap 5.
 
@@ -8,7 +8,7 @@ Sitio web de recetas de pastelería desarrollado con HTML5, CSS3 y Bootstrap 5.
 
 ## 📋 Descripción
 
-Rolling Sugar es una plataforma web dedicada a compartir recetas de pastelería artesanal. El proyecto presenta un diseño moderno y responsive, optimizado para dispositivos móviles y desktop.
+RollingBake es una plataforma web dedicada a compartir recetas de pastelería artesanal. El proyecto presenta un diseño moderno y responsive, optimizado para dispositivos móviles y desktop.
 
 ---
 
